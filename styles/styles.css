@@ -1,0 +1,66 @@
+/* main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+body{
+    padding: 30px 50px 0px 50px;
+}
+
+
+/* banner */
+.banner-bg{
+    background-image: url("../images/Banner\ Image.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    min-height: 500px;
+    border-radius: 10px;
+
+}
+
+.hnyear{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.banner-head{
+    font-size: 72px;
+    text-align: center;
+}
+
+/* discount section */
+
+.discount{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.discount-text h1{
+    font-size: 88px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.discount img{
+    width: 100%;
+}
+
