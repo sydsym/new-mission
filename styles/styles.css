@@ -148,7 +148,7 @@ body {
 }
 
 .event-content span,
-p {
+.event-content p {
   font-family: "Inter", sans-serif;
   font-size: 32px;
   text-align: center;
@@ -171,4 +171,122 @@ p {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   margin: 20px 0;
+}
+
+/* offer section   */
+
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 20px;
+}
+.best-offer{
+    width: 40%;
+}
+.best-offer h3 {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.best-offer h2 {
+  font-size: 48px;
+  font-family: "Merriweather", serif;
+}
+
+.best-offer p , .hny p, .holiday-text p{
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ellipse-img{
+    width: 30%;
+    border-radius: 50%;
+    border: 10px solid #ff0000;
+    padding: 20px;
+}
+
+.ellipse-img img{
+    display: block;
+    width: 100%;
+}
+
+.hny{
+width: 30%;
+}
+
+.hny h3{
+    color: #ff0000;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.hny img{
+width: auto;
+display: block;
+margin-top: 20px;
+}
+
+/* holiday section  */
+.holiday-text{
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.holiday-text h4{
+  font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.holiday-text h1{
+  font-family: "Merriweather", serif;
+    font-size: 72px;
+    margin: 20px 0;
+}
+
+.holidays{
+    color: #ff0000;
+}
+
+.parent{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+}
+
+.child{
+    width: 100%;
+    height: 421px;
+    background-image: url("../images/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.child img{
+    margin-right: 260px;
+}
+
+.parent .box{
+    display: block;
+    position: absolute;
+    /* float: left; */
+    bottom: 30px;
+    left: 30px;
+    width: 500px;
+
 }
