@@ -6,9 +6,9 @@
   font-family: "Merriweather", serif;
 }
 
-header, main {
+header , main {
   padding: 30px 50px 0px 50px;
-  margin: auto;
+  margin: 0;
 }
 
 /* banner */
@@ -406,7 +406,7 @@ footer{
     background-color: #080212;
     margin: 0;
     color: #FFFFFF;
-    padding:100px ;
+    padding: 100px;
 }
 
 .contact-section{
@@ -434,4 +434,10 @@ footer hr{
     background: rgba(255, 255, 255, 0.15);
     height: 1px;
     border: none;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
