@@ -6,8 +6,9 @@
   font-family: "Merriweather", serif;
 }
 
-body {
+header, main {
   padding: 30px 50px 0px 50px;
+  margin: auto;
 }
 
 /* banner */
@@ -336,4 +337,101 @@ body {
 
 .gift:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* newsletter section styles  */
+.newsletter-section{
+    min-height: 600px;
+    background-color: rgba(255, 0, 0, .05);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.img-container{
+    width: 150px;
+    margin: 40px 0;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.newsletter-section h2{
+    color: #070211;
+    font-size: 48px;
+  font-family: "Merriweather", serif;
+
+}
+
+.newsletter-section p{
+    font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  width: 75%;
+  margin: 20px auto ;
+  text-align: center;
+}
+
+.newsletter-section form{
+    width: 100%;
+    text-align: center;
+}
+
+.user-email{
+    width: 30%;
+    display: inline-block;
+    padding: 20px 10px;
+    border: 0;
+    border-radius: 30px 0 0 30px;
+}
+
+.sub-btn{
+    background: #FF0000;
+    color: #fff;
+    border: 0;
+    border-radius: 0 30px 30px 0;
+    width: 15%;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+/* footer styles  */
+
+
+footer{
+    background-color: #080212;
+    margin: 0;
+    color: #FFFFFF;
+    padding:100px ;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.links a{
+    text-decoration: none;
+    width: 60px;
+}
+.links img{
+    width: 100%;
+}
+
+footer hr{
+    margin: auto !important;
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: none;
 }
